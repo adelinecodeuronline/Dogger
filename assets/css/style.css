@@ -39,10 +39,10 @@ nav {
     }
 
 
-    #logo {
+   #logo {
     font-weight: 600;
-    color:black
-    font-size: 60px;
+    color:black;
+    font-size: 1.5em;
   
 
     }
@@ -62,12 +62,35 @@ nav {
         
     }
 
-    nav img {
+    #dog img {
 
-        width: 200px;
-        height: auto;
+        width: auto;
+        height: 660px;
+        margin-top: 85px;
+        margin-left: 350px;
     }
 
+   #dog {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   }
+
+
+
+   #dog h1 {
+   font-size: 4em;
+   font-weight: 400;
+   text-align: left;
+   }
+
+
+   #dog h4 {
+    font-weight: 300;
+    text-align: left;
+    }
+  
+    
 
 
   
