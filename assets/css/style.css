@@ -6,3 +6,70 @@ body {
     font-size: 16 px;
     margin: 0;
 }
+
+.point {
+
+    font-weight: bold;
+    color: #ff9900;
+}
+
+
+
+/*header-nav*/
+
+
+nav {
+
+    height: 800px;
+    background-color: #f8f9fa;
+}
+
+.container {
+
+    width: 60%;
+    margin: auto;
+    
+    }
+
+    nav .container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;           
+       
+    }
+
+
+    #logo {
+    font-weight: 600;
+    color:black
+    font-size: 60px;
+  
+
+    }
+
+    nav a {
+        
+        text-decoration: none;
+        font-weight: 400;
+        color: #4a4a4b;
+            
+    }
+
+    nav ul {
+        display: flex; 
+        list-style: none;
+        gap :20px;
+        
+    }
+
+    nav img {
+
+        width: 200px;
+        height: auto;
+    }
+
+
+
+  
+
+
