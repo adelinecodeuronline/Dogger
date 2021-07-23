@@ -1,0 +1,36 @@
+<nav>
+
+<div class="container">
+
+<a href="#">Dogger.</a>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Trainers</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+
+
+</div>
+
+<!--Slogan et chien-->
+<section class="container">
+
+<div>
+<h1>We care for your dog</h1>
+<p>We always try to provide your dog the best services</p>
+</div>
+
+<img src="./assets/images/dog.png" alt="dog">
+
+
+
+</section>
+
+
+</nav>

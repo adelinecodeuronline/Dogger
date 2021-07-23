@@ -1,3 +1,19 @@
+/*variables*/
+
+:root {
+
+--white: #ffffff;
+--black : #000000;
+--light-grey : #f8f9fa;
+--grey : #999999;
+--strong-grey : #4a4a4b;
+--green : #a2c0be;
+--strong-green : #567876;
+--orange : #ff9900;
+
+}
+
+
 /*style général du document*/
 
 body {
@@ -10,7 +26,7 @@ body {
 .point {
 
     font-weight: bold;
-    color: #ff9900;
+    color: var(--orange);
 }
 
 
@@ -21,7 +37,7 @@ body {
 nav {
 
     height: 800px;
-    background-color: #f8f9fa;
+    background-color: var(--light-grey);
 }
 
 .container {
@@ -41,7 +57,7 @@ nav {
 
    #logo {
     font-weight: 600;
-    color:black;
+    color:var(--black);
     font-size: 1.5em;
   
 
@@ -51,7 +67,7 @@ nav {
         
         text-decoration: none;
         font-weight: 400;
-        color: #4a4a4b;
+        color: var(--strong-grey);
             
     }
 
@@ -62,37 +78,113 @@ nav {
         
     }
 
-    #dog img {
+
+    /*section chien et slogan*/
+
+    .container img {
 
         width: auto;
         height: 660px;
         margin-top: 85px;
-        margin-left: 350px;
+        margin-left: 30px;
     }
 
-   #dog {
+
+
+
+
+    section .container {
     display: flex;
     align-items: center;
     gap: 50px;
+   
    }
 
-
-
-   #dog h1 {
+  
+   .container h1 {
    font-size: 4em;
    font-weight: 400;
    text-align: left;
+   width: 800px;
+   text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
    }
 
 
-   #dog h4 {
+    .container p {
     font-weight: 300;
     text-align: left;
+    color : var(--grey);
     }
   
     
 
 
-  
+    /*section chien et slogan*/
+
+main #contenu {
+    
+    display: block;
+    
+}
 
 
+main #contenu h3 {
+
+    text-align: center;
+}
+
+
+main #contenu p {
+
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+
+main section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+    margin: 150px 0;
+}
+
+main .miniatures {
+
+    width: 40%;
+    height: auto;
+    box-shadow: 5px 5px 1px 0.2px var(--green);
+    
+}
+
+
+  main .btn {
+
+color: var(--white);
+text-decoration: none;
+background-color: var(--green);
+padding: 15px 30px;  
+border-radius: 100px;
+
+  }
+
+
+
+    /*footer*/
+
+    footer  {
+        
+        background-color: var(--strong-grey);
+        height: 75px;
+      
+          
+    }
+
+    footer p {
+
+        
+    }
+    
