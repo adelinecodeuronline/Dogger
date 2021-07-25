@@ -16,7 +16,7 @@
 
 /*style général du document*/
 
-body {
+* {
 
     font-family: 'Open Sans', sans-serif;
     font-size: 16 px;
@@ -116,6 +116,7 @@ nav {
     font-weight: 300;
     text-align: left;
     color : var(--grey);
+
     }
   
     
@@ -150,11 +151,12 @@ main section {
     justify-content: space-between;
     gap: 150px;
     margin: 150px 0;
+    
 }
 
 main .miniatures {
 
-    width: 40%;
+    width: 60%;
     height: auto;
     box-shadow: 5px 5px 1px 0.2px var(--green);
     
@@ -168,8 +170,23 @@ text-decoration: none;
 background-color: var(--green);
 padding: 15px 30px;  
 border-radius: 100px;
+margin-top: 40px;
 
   }
+
+
+
+
+
+  .container section p {
+
+    white-space: normal;
+    margin-bottom: 40px;
+    
+  }
+
+
+  
 
 
 
@@ -179,12 +196,18 @@ border-radius: 100px;
         
         background-color: var(--strong-grey);
         height: 75px;
-      
+        
+        
           
     }
 
     footer p {
 
+        text-align: center;
+        color: var(--light-grey);
+        transform: translateY(30px);
+        font-weight: 300;
+        
         
     }
     
