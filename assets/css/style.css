@@ -68,8 +68,17 @@ nav {
         text-decoration: none;
         font-weight: 400;
         color: var(--strong-grey);
+        transition: background-color 500ms;
             
     }
+
+
+    nav a:hover {
+        color: var(--grey);
+        transition: background-color 500ms;
+
+    }
+
 
     nav ul {
         display: flex; 
@@ -171,9 +180,20 @@ background-color: var(--green);
 padding: 15px 30px;  
 border-radius: 100px;
 margin-top: 40px;
+transition: background-color 500ms;
 
   }
 
+
+  main .btn:hover {
+
+    
+    background-color: black;
+    transition: background-color 500ms;
+    
+    
+    
+      }
 
 
 
