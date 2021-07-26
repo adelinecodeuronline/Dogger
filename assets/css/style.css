@@ -202,6 +202,7 @@ transition: background-color 500ms;
 
     white-space: normal;
     margin-bottom: 40px;
+    width: 450px;
     
   }
 
@@ -221,13 +222,21 @@ transition: background-color 500ms;
   }
 
 
+ #contenu p {
+
+    margin: auto;
+  
+  }
+
+
 
     /*footer*/
 
     footer  {
         
-        background-color: var(--strong-grey);
-        height: 75px;
+        background-color: var(--strong-green);
+        height: 90px;
+        padding: 10px;
         
         
           
@@ -237,8 +246,9 @@ transition: background-color 500ms;
 
         text-align: center;
         color: var(--light-grey);
-        transform: translateY(30px);
+        transform: translateY(40px);
         font-weight: 300;
+        font-size: 12px;
         
         
     }
